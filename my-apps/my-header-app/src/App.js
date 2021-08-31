@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <article>
+      <h1>
+        “Look—” he murmured, holding out his arm to stop Malfoy. Something
+        bright white was gleaming on the ground. They inched closer.
+      </h1>
+      <h2>
+        It was the unicorn all right, and it was dead. Harry had never seen
+        anything so beautiful and sad. Its long, slender legs were stuck out at
+        odd angles where it had fallen and its mane was spread pearly-white on
+        the dark leaves.
+      </h2>
+      <h3>
+        Harry had taken one step toward it when a slithering sound made him
+        freeze where he stood. A bush on the edge of the clearing quivered. . .
+        . Then, out of the shadows, a hooded figure came crawling across the
+        ground like some stalking beast. Harry, Malfoy, and Fang stood
+        transfixed. The cloaked figure reached the unicorn, lowered its head
+        over the wound in the animal’s side, and began to drink its blood.
+      </h3>
+      <h4>“AAAAAAAAAAARGH!”</h4>
+      <h5>
+        Malfoy let out a terrible scream and bolted—so did Fang. The hooded
+        figure raised its head and looked right at Harry—unicorn blood was
+        dribbling down its front. It got to its feet and came swiftly toward
+        Harry—he couldn’t move for fear.
+      </h5>
+    </article>
   );
 }
 
