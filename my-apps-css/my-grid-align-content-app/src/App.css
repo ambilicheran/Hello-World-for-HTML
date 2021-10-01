@@ -1,0 +1,24 @@
+.grid-container {
+  display: grid;
+  height: 500px;
+  grid-template-columns: 200px 600px auto 100px;
+  background-color: rgb(5, 38, 46);
+  padding: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  grid-gap: 30px; /* overwrites prev. 2 lines */
+  grid-gap: 5px 7px; /* overwrites prev. line */
+  align-content: center;
+  align-content: space-evenly;
+  align-content: space-around;
+  align-content: start;
+  align-content: end;
+}
+
+.grid-container > div {
+  background-color: rgb(13, 161, 177);
+  border: 1px solid rgb(210, 225, 230);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
